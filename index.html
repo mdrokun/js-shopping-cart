@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eCommerce front-end</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="top-menu clear">
+            <div class="container">
+                <div class="logo">
+                    <h1>is this is a store</h1>
+                    <p>i don't believe</p>
+                </div>
+                <!--/.logo-->
+                <div class="cart">
+                    <div class="cart-icon">
+                        <div class="icon">
+                            <i class="fa fa-shopping-basket"></i>
+                        </div>
+                        <div class="cart-items">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="img">Image</th>
+                                        <th class="name">Name</th>
+                                        <th class="price">Price</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- <tr>
+                                        <td><img src="img/panda.gif" alt=""></td>
+                                        <td>
+                                            <h4>Eum aperiam quis vitae voluptate.</h4>
+                                        </td>
+                                        <td>
+                                            <p>$ 85</p>
+                                        </td>
+                                        <td><a href="#" class="remove">X</a></td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                            <button id="clear-cart">Clear Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!--/.cart-->
+            </div>
+        </div>
+    </header>
+
+    <div id="product">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4">
+                    <div class="product-details">
+                        <img src="img/chickenL.gif" alt="">
+                        <div class="content">
+                            <div class="clear">
+                                <h3>Consectetur adipisicing elit.</h3>
+                                <p>$ 40</p>
+                            </div>
+                            <button class="buy-now" data-id="1">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="product-details">
+                        <img src="img/ob_f5766f_catme-compressor.gif" alt="">
+                        <div class="content">
+                            <div class="clear">
+                                <h3>Alias, quaerat esse voluptate.</h3>
+                                <p>$ 90</p>
+                            </div>
+                            <button class="buy-now" data-id="2">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product-details">
+                        <img src="img/panda.gif" alt="">
+                        <div class="content">
+                            <div class="clear">
+                                <h3>Eum aperiam quis vitae voluptate.</h3>
+                                <p>$ 85</p>
+                            </div>
+                            <button class="buy-now" data-id="3">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
